@@ -7,8 +7,8 @@ public class Exercício03 {
 		//Desenvolver um programa que pergunte ao usuário o seu peso (em quilos) e sua altura (em metros). Ao final o
 		//programa deverá exibir na tela para o usuário o valor do peso informado em gramas e a altura em centímetros.
 		
-		int quilos = Keyboard.readInt("Informe seu peso em quilos: ");
-		int altura = Keyboard.readInt("Informe sua altura: ");
+		double quilos = Keyboard.readInt("Informe seu peso em quilos: ");
+		double altura = Keyboard.readInt("Informe sua altura: ");
 		
 		double gramas = quilos * 1.000;
 		
